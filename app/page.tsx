@@ -1,7 +1,9 @@
+import HeroSection from "@/components/home/HeroSection";
+
 export default function Home() {
   return (
     <main>
-      <h1 className="text-2xl">Main section</h1>
+      <HeroSection />
     </main>
   );
 }
