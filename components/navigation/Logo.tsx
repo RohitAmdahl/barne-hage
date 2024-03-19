@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Logo = () => {
   return (
-    <div>
+    <div className="max-w-xs">
       <Image
         className="p-2"
         src="/logo.png"

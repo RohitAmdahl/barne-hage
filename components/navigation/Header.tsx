@@ -3,12 +3,14 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <header className="container mx-auto max-w-5xl">
-      <div className="container mx-auto max-w-5xl p-2 m-2 ">
-        <Logo />
-      </div>
-      <Navbar />
-    </header>
+    <div className="container mx-auto max-w-5xl p-4">
+      <header className="flex flex-wrap justify-between items-center">
+        <div className="flex flex-wrap">
+          <Logo />
+        </div>
+        <Navbar />
+      </header>
+    </div>
   );
 };
 
