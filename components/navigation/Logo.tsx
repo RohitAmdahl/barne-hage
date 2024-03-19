@@ -1,9 +1,9 @@
 import Image from "next/image";
 const Logo = () => {
   return (
-    <div className="max-w-xs">
+    <div className="">
       <Image
-        className="p-2"
+        className="max-w-md container mx-auto"
         src="/logo.png"
         alt="logo barnehage"
         width={180}
