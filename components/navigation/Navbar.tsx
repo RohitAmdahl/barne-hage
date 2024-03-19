@@ -1,8 +1,18 @@
+import { navLinks } from "@/utils/navlinks";
+import Link from "next/link";
+
+console.log(navLinks);
 const Navbar = () => {
   return (
-    <div>
-      <ul></ul>
-    </div>
+    <nav>
+      <ul>
+        {navLinks.map((headerLinks) => (
+          <li key={headerLinks.path}>
+            <Link href={headerLinks.path}>{headerLinks.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 };
 
