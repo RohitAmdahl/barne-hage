@@ -6,7 +6,10 @@ const Navbar = () => {
     <nav className="flex item-center justify-between">
       <ul className="flex justify-between item-center ">
         {navLinks.map((headerLinks) => (
-          <li key={headerLinks.path} className="p-2">
+          <li
+            key={headerLinks.path}
+            className="p-2 font-serif text-lg font-bold hover:underline hover:text-purple-950 "
+          >
             <Link href={headerLinks.path}>{headerLinks.name}</Link>
           </li>
         ))}
