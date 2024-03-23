@@ -1,14 +1,8 @@
 import Image from "next/image";
 const Logo = () => {
   return (
-    <div className="">
-      <Image
-        className="max-w-md container mx-auto"
-        src="/logo.png"
-        alt="logo barnehage"
-        width={180}
-        height={100}
-      />
+    <div>
+      <Image src="/logo.png" alt="logo barnehage" width={180} height={100} />
     </div>
   );
 };
