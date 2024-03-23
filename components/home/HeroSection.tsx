@@ -1,26 +1,32 @@
 import { Metadata } from "next";
-
+import { Schoolbell } from "next/font/google";
 export const metadata = {
   title: "Home page!",
   description: "home page about barnehage",
 };
 
+const school = Schoolbell({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-school",
+});
+
 const HeroSection = () => {
   return (
     <>
-      <div className="font-bold container max-w-5xl mx-auto text-center relative p-2  ">
-        <h1 className="text-4xl font-serif absolute max-w-sm  ">
-          we are the Future
-        </h1>
-      </div>
       <div className="max-w-4xl mx-auto container">
         <figure className="p-2">
           <img
             src="/barn.jpg"
             alt="logo barnehage"
-            className=" max-w-3xl container mx-auto rounded-t-full bg-pink-200 p-4 "
+            className=" max-w-3xl container mx-auto rounded-t-full bg-pink-200 p-4"
           />
         </figure>
+      </div>
+      <div className="font-bold p-2 container max-w-xs mx-auto text-center  ">
+        <h1 className={`${school.className}capitalize text-4xl`}>
+          we are the Future
+        </h1>
       </div>
 
       <div className=" flex justify-center item-center container mx-auto max-w-4xl flex-wrap">
