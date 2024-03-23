@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="font-bold container max-w-5xl mx-auto text-center relative p-2  ">
-        <h1 className="text-4xl font-serif absolute max-w-sm shadow-textShadow ">
+        <h1 className="text-4xl font-serif absolute max-w-sm  ">
           we are the Future
         </h1>
       </div>
