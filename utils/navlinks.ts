@@ -17,8 +17,8 @@ export const navLinks: Nav[] = [
     name: "Contact",
     path: "/contact",
   },
-  {
-    name: "Day Routine",
-    path: "/dayrutine",
-  },
+  // {
+  //   name: "Day Routine",
+  //   path: "/dayrutine",
+  // },
 ];
