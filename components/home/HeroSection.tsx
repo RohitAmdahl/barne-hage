@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { Schoolbell } from "next/font/google";
-export const metadata = {
+export const metadata: Metadata = {
   title: "Home page!",
   description: "home page about barnehage",
 };
@@ -24,7 +24,7 @@ const HeroSection = () => {
         </figure>
       </div>
       <div className="font-bold p-2 container max-w-xs mx-auto text-center  ">
-        <h1 className={`${school.className}capitalize text-4xl`}>
+        <h1 className={`${school.variable} capitalize text-4xl font-school`}>
           we are the Future
         </h1>
       </div>
