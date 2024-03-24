@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { Schoolbell } from "next/font/google";
+import TabsLinks from "./TabsLinks";
 export const metadata: Metadata = {
   title: "Home page!",
   description: "home page about barnehage",
@@ -14,19 +15,22 @@ const school = Schoolbell({
 const HeroSection = () => {
   return (
     <>
+      <TabsLinks />
+      <div className="font-bold p-2 container max-w-2xl mx-auto text-center ">
+        <h2
+          className={`${school.variable} capitalize text-4xl font-school py-2`}
+        >
+          To be involved in a community
+        </h2>
+      </div>
       <div className="max-w-4xl mx-auto container">
         <figure className="p-2">
           <img
             src="/barn.jpg"
             alt="logo barnehage"
-            className=" max-w-3xl container mx-auto rounded-t-full bg-pink-200 p-4"
+            className=" max-w-2xl container mx-auto rounded-t-full bg-pink-200 p-4"
           />
         </figure>
-      </div>
-      <div className="font-bold p-2 container max-w-xs mx-auto text-center  ">
-        <h1 className={`${school.variable} capitalize text-4xl font-school`}>
-          we are the Future
-        </h1>
       </div>
 
       <div className=" flex justify-center item-center container mx-auto max-w-4xl flex-wrap">
@@ -42,7 +46,7 @@ const HeroSection = () => {
           <figure className="p-4">
             <img
               src="/CK_Purple_Blob_Transparent_3x.gif"
-              alt=""
+              alt="gif animation a purple cloud moving with the light orange background in the background"
               width={200}
               height={200}
               className="drop-shadow-2xl"
