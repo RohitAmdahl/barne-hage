@@ -34,7 +34,7 @@ const HeroSection = () => {
               alt="logo barnehage"
               width={250}
               height={250}
-              className=" max-w-2xl container mx-auto rounded-t-full bg-pink-200 p-4"
+              className="max-w-2xl container mx-auto rounded-t-full bg-pink-200 p-4"
             />
           </figure>
         </div>
@@ -55,6 +55,7 @@ const HeroSection = () => {
               width={200}
               height={200}
               className="drop-shadow-2xl"
+              unoptimized
             />
           </div>
         </div>
