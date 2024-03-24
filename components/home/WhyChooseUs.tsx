@@ -1,4 +1,6 @@
 import { Schoolbell } from "next/font/google";
+import Image from "next/image";
+
 const school = Schoolbell({
   subsets: ["latin"],
   weight: "400",
@@ -8,8 +10,10 @@ const WhyChooseUs = () => {
   return (
     <section className=" grid grid-cols-1 gap-2 container mx-auto max-w-5xl align-middle p-4 m-2 md:grid-cols-2 lg:grid-cols-2">
       <div className="p-2">
-        <img
+        <Image
           src="/group.png"
+          width={150}
+          height={100}
           alt="picture of a group of children together with a grown up women crossing the  road"
           className=" max-w-2xl container mx-auto "
         />
