@@ -17,8 +17,8 @@ const school = Schoolbell({
 const HeroSection = () => {
   return (
     <>
-      <section>
-        <div className=" pt-32">
+      <section className="pt-10 md:pt-7 lg:pt-5">
+        <div className="pt-32 md:pt-20 lg:pt-22">
           <TabsLinks />
         </div>
         <div className="font-bold p-2 container max-w-2xl mx-auto text-center ">
@@ -29,15 +29,13 @@ const HeroSection = () => {
           </h2>
         </div>
         <div className="max-w-4xl mx-auto container">
-          <figure className="p-2">
-            <Image
-              src="/barn.jpg"
-              alt="logo barnehage"
-              width={250}
-              height={250}
-              className="max-w-2xl container mx-auto rounded-t-full bg-pink-200 p-4"
-            />
-          </figure>
+          <Image
+            src="/barn.jpg"
+            alt="logo barnehage"
+            width={250}
+            height={250}
+            className="max-w-2xl container mx-auto rounded-t-full bg-pink-200 p-4"
+          />
         </div>
 
         <div className=" flex justify-center item-center container mx-auto max-w-4xl flex-wrap">
