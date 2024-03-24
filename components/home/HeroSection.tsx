@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { Schoolbell } from "next/font/google";
 import TabsLinks from "./TabsLinks";
 import Image from "next/image";
+
 export const metadata: Metadata = {
   title: "Home page!",
   description: "home page about barnehage",
@@ -48,7 +49,7 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className="shadow-2xl m-2 rounded-full bg-orange-300 ">
+          {/* <div className="shadow-2xl m-2 rounded-full bg-orange-300 ">
             <Image
               src="/CK_Purple_Blob_Transparent_3x.gif"
               alt="gif animation a purple cloud moving with the light orange background in the background"
@@ -57,7 +58,7 @@ const HeroSection = () => {
               className="drop-shadow-2xl"
               unoptimized
             />
-          </div>
+          </div> */}
         </div>
       </section>
     </>
