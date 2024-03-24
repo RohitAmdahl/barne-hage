@@ -6,7 +6,7 @@ const school = Schoolbell({
 });
 const WhyChooseUs = () => {
   return (
-    <div className=" grid grid-cols-1 gap-2 container mx-auto max-w-5xl align-middle p-4 m-2 md:grid-cols-2 lg:grid-cols-2">
+    <section className=" grid grid-cols-1 gap-2 container mx-auto max-w-5xl align-middle p-4 m-2 md:grid-cols-2 lg:grid-cols-2">
       <div className="p-2">
         <img
           src="/group.png"
@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
           but it shall not be forced to become a rose.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
