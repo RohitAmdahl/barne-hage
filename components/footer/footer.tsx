@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 const FooterComponent = () => {
   return (
     <footer className="  bg-pink-100 pt-4 mt-6 ">
       <div className="max-w-4xl mx-auto grid grid-cols-1 gap-2 md:grid-cols-3 lg:grid-cols-3 items-center">
         <div className="p-2 align-middle" role="link">
           <Link href={"/"}>
-            <img
+            <Image
               src="/logo.png"
               alt="barnehage logo"
               width={180}
