@@ -49,15 +49,13 @@ const HeroSection = () => {
           </div>
 
           <div className="shadow-2xl m-2 rounded-full bg-orange-300 ">
-            <figure className="p-4">
-              <Image
-                src="/CK_Purple_Blob_Transparent_3x.gif"
-                alt="gif animation a purple cloud moving with the light orange background in the background"
-                width={200}
-                height={200}
-                className="drop-shadow-2xl"
-              />
-            </figure>
+            <Image
+              src="/CK_Purple_Blob_Transparent_3x.gif"
+              alt="gif animation a purple cloud moving with the light orange background in the background"
+              width={200}
+              height={200}
+              className="drop-shadow-2xl"
+            />
           </div>
         </div>
       </section>
