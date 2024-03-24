@@ -1,16 +1,21 @@
 import { navLinks } from "@/utils/navlinks";
 import Link from "next/link";
-
+import Logo from "./Logo";
 const Navbar = () => {
   return (
-    <nav className="flex item-center justify-between ">
-      <ul className="flex justify-between item-center p-4 ">
+    <nav className="flex item-center justify-between flex-wrap container mx-auto items-center ">
+      <Link className="" href={"/"}>
+        <Logo />
+      </Link>
+      <ul className="flex justify-between item-center">
         {navLinks.map((headerLinks) => (
           <li
             key={headerLinks.path}
             className="p-2 font-serif text-md font-bold hover:underline hover:text-purple-950 "
           >
-            <Link href={headerLinks.path}>{headerLinks.name}</Link>
+            <Link className="" href={headerLinks.path}>
+              {headerLinks.name}
+            </Link>
           </li>
         ))}
       </ul>
