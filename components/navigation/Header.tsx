@@ -3,14 +3,14 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="bg-pink-200 px-4 ">
-      <div className="container mx-auto max-w-5xlp-2">
-        <header className="flex flex-wrap justify-between items-baseline">
+    <header className="w-full px-4 fixed  backdrop-blur-xl bg-white/30   ">
+      <div className=" p-2 max-w-5xl mx-auto container ">
+        <div className=" flex flex-wrap justify-center items-center lg:justify-between md:justify-between ">
           <Logo />
           <Navbar />
-        </header>
+        </div>
       </div>
-    </div>
+    </header>
   );
 };
 
