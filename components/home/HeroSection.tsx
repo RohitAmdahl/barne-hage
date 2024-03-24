@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { Schoolbell } from "next/font/google";
 import TabsLinks from "./TabsLinks";
+import WhyChooseUs from "./whyChooseUs";
 export const metadata: Metadata = {
   title: "Home page!",
   description: "home page about barnehage",
@@ -16,6 +17,7 @@ const HeroSection = () => {
   return (
     <>
       <TabsLinks />
+      <WhyChooseUs />
       <div className="font-bold p-2 container max-w-2xl mx-auto text-center ">
         <h2
           className={`${school.variable} capitalize text-4xl font-school py-2`}
