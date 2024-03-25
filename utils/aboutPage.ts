@@ -5,7 +5,7 @@ interface AboutPage {
 
 export const aboutText: AboutPage[] = [
   {
-    title: "Magic of Our Barnehage.",
+    title: "Barnehage.",
     description:
       "Welcome to our kindergarten, where every child's journey begins with wonder and excitement, our colorful classrooms and engaging outdoor spaces provide a safe and nurturing environment for exploration and discovery. With a dedicated team of educators, we encourage curiosity, creativity, and friendship. Together with families, we create a vibrant community where children thrive and grow. Join us on this adventure of learning and laughter at our kindergarten.",
   },

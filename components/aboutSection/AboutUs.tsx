@@ -4,17 +4,34 @@ import { aboutText } from "@/utils/aboutPage";
 const AboutUs = () => {
   return (
     <>
-      <div className="pt-32 md:pt-24 lg:pt-28 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+      <div className="pt-32 md:pt-24 lg:pt-28 ">
         <div>
           <h1
-            className={`${schoolFont.variable} p-2 capitalize text-4xl font-school py-2`}
+            className={`${schoolFont.variable} capitalize text-4xl font-school p-2 `}
           >
             Magic of Our Barnehage.
           </h1>
         </div>
       </div>
 
-      <div>{}</div>
+      <div className="p-2">
+        {aboutText.map((text) => {
+          return (
+            <div className="p-2 ">
+              <div key={text.title}>
+                <h2
+                  className={`${schoolFont.variable} text-2xl font-school py-2`}
+                >
+                  {text.title}
+                </h2>
+                <div className="p-2">
+                  <p> {text.description} </p>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
       <div className=" mt-9 py-4 grid grid-cols-1 lg:grid-cols-2 items-center container mx-auto max-w-4xl gap-4 flex-wrap bg-orange-200 rounded-xl">
         <div className="p-8">
           <Image
