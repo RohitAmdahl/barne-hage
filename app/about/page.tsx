@@ -1,4 +1,5 @@
 import AboutUs from "@/components/aboutSection/AboutUs";
+
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About page!",
@@ -6,7 +7,7 @@ export const metadata: Metadata = {
 };
 const AboutSection = () => {
   return (
-    <div className=" container mx-auto max-w-4xl ">
+    <div className="pt-8 container mx-auto max-w-4xl ">
       <AboutUs />
     </div>
   );
