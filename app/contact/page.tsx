@@ -1,5 +1,11 @@
 import Team from "@/components/aboutSection/Team";
 import ContactPage from "@/components/contact/ContactPage";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact page! Barnehage",
+  description: "contact page barnehage",
+};
 
 const ContactPageRoute = () => {
   return (
