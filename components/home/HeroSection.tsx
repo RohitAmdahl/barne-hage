@@ -1,4 +1,3 @@
-import { Schoolbell } from "next/font/google";
 import TabsLinks from "./TabsLinks";
 import Image from "next/image";
 import schoolFont from "@/utils/fontStyle";
