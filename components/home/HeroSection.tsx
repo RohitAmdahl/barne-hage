@@ -1,7 +1,7 @@
 import TabsLinks from "./TabsLinks";
 import Image from "next/image";
 import schoolFont from "@/utils/fontStyle";
-
+import heroImg from "@/public/barn.jpg";
 const HeroSection = () => {
   return (
     <>
@@ -18,10 +18,8 @@ const HeroSection = () => {
         </div>
         <div className="max-w-xl mx-auto container">
           <Image
-            src="/barn.jpg"
+            src={heroImg}
             alt="logo barnehage"
-            width={250}
-            height={250}
             className="max-w-xl container mx-auto rounded-t-full bg-pink-200 p-4"
           />
         </div>
