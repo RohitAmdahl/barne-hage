@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="pt-32 md:pt-24 lg:pt-28 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
-        <div className="  ">
+        <div>
           <h1
             className={`${schoolFont.variable} p-2 capitalize text-4xl font-school py-2`}
           >
