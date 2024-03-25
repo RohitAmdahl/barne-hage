@@ -3,11 +3,6 @@ import { Schoolbell } from "next/font/google";
 import TabsLinks from "./TabsLinks";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "Home page!",
-  description: "home page about barnehage",
-};
-
 const school = Schoolbell({
   subsets: ["latin"],
   weight: "400",
@@ -18,7 +13,7 @@ const HeroSection = () => {
   return (
     <>
       <section className="pt-10 md:pt-7 lg:pt-5">
-        <div className="pt-32 md:pt-20 lg:pt-22">
+        <div className="pt-32 md:pt-20 lg:pt-15">
           <TabsLinks />
         </div>
         <div className="font-bold p-2 container max-w-2xl mx-auto text-center ">
