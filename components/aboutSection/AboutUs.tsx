@@ -60,7 +60,7 @@ const AboutUs = () => {
             Brennastubben Family Daycare is located in Brenna, Dal/Brenna in
             Oslo, specifically at Brennastubben 16. The surrounding area
             consists of villa housing and Østmarka Eastern Forest. Information
-            about Brenna can be found on Brenna's Neighborhood Association
+            about Brenna can be found on Brenna&apos;s Neighborhood Association
             website.
           </p>
         </div>
