@@ -10,9 +10,9 @@ const AboutSection = () => {
   return (
     <div className="pt-8 container mx-auto max-w-4xl ">
       <AboutUs />
-      <div className="pt-8 container mx-auto max-w-4xl ">
+      {/* <div className="pt-8 container mx-auto max-w-4xl ">
         <Team />
-      </div>
+      </div> */}
     </div>
   );
 };

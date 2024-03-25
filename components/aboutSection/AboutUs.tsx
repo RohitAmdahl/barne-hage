@@ -1,5 +1,6 @@
 import schoolFont from "../../utils/fontStyle";
 import Image from "next/image";
+import { aboutText } from "@/utils/aboutPage";
 const AboutUs = () => {
   return (
     <>
@@ -10,37 +11,10 @@ const AboutUs = () => {
           >
             Magic of Our Barnehage.
           </h1>
-          <p className="p-2">
-            Welcome to our kindergarten, where every child&apos;s journey begins
-            with wonder and excitement, our colorful classrooms and engaging
-            outdoor spaces provide a safe and nurturing environment for
-            exploration and discovery. With a dedicated team of educators, we
-            encourage curiosity, creativity, and friendship. Together with
-            families, we create a vibrant community where children thrive and
-            grow. Join us on this adventure of learning and laughter at our
-            kindergarten.
-          </p>
-        </div>
-        <div className=" text-center">
-          <div>
-            <h2
-              className={`${schoolFont.variable} capitalize text-4xl font-school py-2`}
-            >
-              Billing Address.
-            </h2>
-            <p className="p-2">Brennagrennda 12147, 1279 Oslo</p>
-            <p className="p-2">Alternative is you can send us an email</p>
-            <div>
-              <h2
-                className={`${schoolFont.variable} capitalize text-4xl font-school py-2`}
-              >
-                Our Location.
-              </h2>
-              <p className="p-2">Brennagrennda 1212, 1279 Oslo</p>
-            </div>
-          </div>
         </div>
       </div>
+
+      <div>{}</div>
       <div className=" mt-9 py-4 grid grid-cols-1 lg:grid-cols-2 items-center container mx-auto max-w-4xl gap-4 flex-wrap bg-orange-200 rounded-xl">
         <div className="p-8">
           <Image
