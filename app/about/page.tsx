@@ -1,7 +1,13 @@
+import AboutUs from "@/components/aboutSection/AboutUs";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "About page!",
+  description: "complete information about barnehage",
+};
 const AboutSection = () => {
   return (
-    <div className=" text-2xl font-mono font-bold container max-w-5xl mx-auto text-center ">
-      AboutSection
+    <div className=" container mx-auto max-w-4xl ">
+      <AboutUs />
     </div>
   );
 };
