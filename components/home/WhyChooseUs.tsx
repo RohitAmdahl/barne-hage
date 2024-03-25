@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
           width={150}
           height={100}
           alt="picture of a group of children together with a grown up women crossing the  road"
-          className=" max-w-2xl container mx-auto "
+          className="  max-w-2xl container mx-auto "
         />
       </div>
       <div className="flex flex-col justify-center items-center p-4">
