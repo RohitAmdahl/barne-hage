@@ -36,9 +36,9 @@ const HeroSection = () => {
         <div className=" flex justify-center item-center container mx-auto max-w-4xl flex-wrap">
           <div className="p-4 flex justify-center items-center">
             <p className="p-4 max-w-xl ">
-              "We will provide the tulip with such a favorable environment that
+              We will provide the tulip with such a favorable environment that
               it becomes as large, beautiful, and well-developed as it possibly
-              can, but it shall not be forced to become a rose." - Frøbel
+              can, but it shall not be forced to become a rose. - Frøbel
             </p>
           </div>
 
