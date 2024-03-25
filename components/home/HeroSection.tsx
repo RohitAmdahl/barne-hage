@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="pt-32 md:pt-20 lg:pt-15">
           <TabsLinks />
         </div>
-        <div className="font-bold p-2 container max-w-2xl mx-auto text-center ">
+        <div className="font-bold p-2 container max-w-2xl mx-auto text-center">
           <h2
             className={`${schoolFont.variable} capitalize text-4xl font-school py-2`}
           >
