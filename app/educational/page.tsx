@@ -1,9 +1,9 @@
+import Learning from "@/components/education/Learning";
+
 const EducationalSection = () => {
   return (
-    <div>
-      <h1 className=" text-2xl font-mono font-bold container max-w-5xl mx-auto text-center ">
-        Educational detail part
-      </h1>
+    <div className=" pt-8 container mx-auto max-w-4xl">
+      <Learning />
     </div>
   );
 };
