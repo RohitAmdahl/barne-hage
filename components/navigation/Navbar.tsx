@@ -10,7 +10,7 @@ const Navbar = () => {
       <ul className="flex justify-between item-center">
         {navLinks.map((headerLinks) => (
           <li
-            key={headerLinks.path}
+            key={headerLinks.id}
             className="p-2 font-serif text-md font-bold hover:underline hover:text-purple-950 "
           >
             <Link className="" href={headerLinks.path}>

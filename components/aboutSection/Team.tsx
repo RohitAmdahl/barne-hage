@@ -11,7 +11,7 @@ const Team = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl p-4 m-4">
         {teamsCards.map((card) => (
-          <div key={card.name} className="bg-white rounded-lg shadow-md p-6">
+          <div key={card.id} className="bg-white rounded-lg shadow-md p-6">
             <div className="flex justify-center">
               <Image
                 src={card.image}

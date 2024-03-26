@@ -17,7 +17,7 @@ const AboutUs = () => {
       <div className="p-2">
         {aboutText.map((text) => {
           return (
-            <div className="p-2" key={text.title}>
+            <div className="p-2" key={text.id}>
               <div>
                 <h2
                   className={`${schoolFont.variable} text-2xl font-school py-2`}
