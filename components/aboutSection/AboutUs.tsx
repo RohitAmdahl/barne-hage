@@ -4,7 +4,7 @@ import { aboutText } from "@/utils/aboutPage";
 const AboutUs = () => {
   return (
     <>
-      <div className="pt-32 md:pt-24 lg:pt-28 ">
+      <div className="pt-32 md:pt-24 lg:pt-24 ">
         <div>
           <h1
             className={`${schoolFont.variable} capitalize text-4xl font-school p-2 `}
