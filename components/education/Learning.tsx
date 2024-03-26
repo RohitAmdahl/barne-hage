@@ -54,7 +54,7 @@ const Learning = () => {
           The pedagogical work with the children occurs through our daily care
           and interactions, both structured and in more open settings, from the
           moment we welcome them in the morning, during meals, and other daily
-          activities. However, the children's play is central to their
+          activities. However, the children&apos;s play is central to their
           development and learning. Through play, children learn social rules,
           how to form friendships, and knowledge is mutually transferred between
           children and between adults and children.

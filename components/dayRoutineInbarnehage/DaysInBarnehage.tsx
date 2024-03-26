@@ -10,12 +10,12 @@ const DaysInBarnehage = () => {
         </h1>
         <p>
           In kindergarten, fostering friendships holds paramount importance as
-          it plays a pivotal role in a child's emotional, social, and cognitive
-          development. Friendships provide a sense of belonging and security,
-          helping children feel supported and accepted within their peer group.
-          Through interactions with friends, children learn valuable social
-          skills such as sharing, cooperation, and empathy, which are crucial
-          for building positive relationships later in life. Moreover,
+          it plays a pivotal role in a child&apos;s emotional, social, and
+          cognitive development. Friendships provide a sense of belonging and
+          security, helping children feel supported and accepted within their
+          peer group. Through interactions with friends, children learn valuable
+          social skills such as sharing, cooperation, and empathy, which are
+          crucial for building positive relationships later in life. Moreover,
           friendships in kindergarten create opportunities for language
           development as children communicate, negotiate, and problem-solve
           together.
