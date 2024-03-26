@@ -2,8 +2,8 @@ import schoolFont from "@/utils/fontStyle";
 
 const ContactPage = () => {
   return (
-    <div>
-      <div className=" text-center">
+    <div className="">
+      <div className=" text-center ">
         <div>
           <h2
             className={`${schoolFont.variable} capitalize text-4xl font-school py-2`}
