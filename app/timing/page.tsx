@@ -1,5 +1,12 @@
+import TimingInBarnehage from "@/components/time/TimingInBarnehage";
+
 const TimingBarneHage = () => {
-  return <div> Time table for page</div>;
+  return (
+    <div>
+      <h1 className="text-4xl font-bold">Timing</h1>
+      <TimingInBarnehage />
+    </div>
+  );
 };
 
 export default TimingBarneHage;
