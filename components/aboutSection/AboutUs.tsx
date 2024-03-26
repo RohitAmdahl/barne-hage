@@ -32,7 +32,7 @@ const AboutUs = () => {
           );
         })}
       </div>
-      <div className=" mt-9 py-4 grid grid-cols-1 lg:grid-cols-2 items-center container mx-auto max-w-4xl gap-4 flex-wrap bg-orange-200 rounded-xl">
+      <div className=" mt-9 py-4 grid grid-cols-1 lg:grid-cols-2 items-center container mx-auto max-w-4xl gap-4 flex-wrap bg-orange-50 rounded-xl">
         <div className="p-8">
           <Image
             src="/aboutBarenehage.jpg"

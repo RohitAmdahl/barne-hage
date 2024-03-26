@@ -20,7 +20,7 @@ const HeroSection = () => {
           <Image
             src={heroImg2}
             alt="logo barnehage"
-            className="max-w-xl container mx-auto rounded-t-full bg-pink-200 p-4"
+            className="max-w-xl container mx-auto rounded-t-full bg-orange-50 p-8"
           />
         </div>
 
@@ -33,7 +33,7 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className="shadow-2xl m-2 rounded-full bg-orange-300 ">
+          <div className="m-2">
             <Image
               src="/cloud.gif"
               alt="gif animation a purple cloud moving with the light orange background in the background"

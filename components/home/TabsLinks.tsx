@@ -5,8 +5,8 @@ const TabsLinks = () => {
   return (
     <>
       <section>
-        <div className=" p-2  grid grid-cols-2 gap-2 md:grid-cols-2 lg:grid-cols-4 ">
-          <div className="bg-green-300 text-center p-5 rounded-lg hover:ring-2 hover:bg-green-200">
+        <div className=" p-2  grid grid-cols-2 gap-2 md:grid-cols-2 lg:grid-cols-4  ">
+          <div className="bg-green-300 text-center p-5 rounded-lg hover:ring-2 hover:bg-green-200 ">
             <Link
               href={"/dayrutine"}
               className="p-2  text-lg font-bold hover:underline hover:text-purple-950  "
