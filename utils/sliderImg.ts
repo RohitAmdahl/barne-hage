@@ -7,20 +7,20 @@ interface SliderImg {
 export const sliderImg: SliderImg[] = [
   {
     id: 1,
-    image: "/slider1.png",
-    alt: "slider image",
-    description: "slider image",
+    image: "/slider1.jpg",
+    alt: "kindergarten teacher with kids",
+    description: "kindergarten teacher with kids",
   },
   {
     id: 2,
-    image: "/slider2.png",
-    alt: "slider image",
-    description: "slider image",
+    image: "/slider2.jpg",
+    alt: "kindergarten indoor image",
+    description: "kindergarten indoor image",
   },
   {
     id: 3,
-    image: "/slider3.png",
-    alt: "slider image",
-    description: "slider image",
+    image: "/slider3.jpg",
+    alt: "kindergarten teacher with kids",
+    description: "kindergarten teacher with kids",
   },
 ];
