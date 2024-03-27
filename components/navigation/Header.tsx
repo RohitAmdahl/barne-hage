@@ -1,3 +1,4 @@
+import TabsLinks from "../home/TabsLinks";
 import Navbar from "./Navbar";
 
 const Header = () => {
@@ -9,6 +10,9 @@ const Header = () => {
             <Navbar />
           </div>
         </div>
+      </div>
+      <div className=" pt-36 md:pt-24 lg:pt-24 ">
+        <TabsLinks />
       </div>
     </header>
   );
