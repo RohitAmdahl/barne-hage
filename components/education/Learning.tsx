@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 const Learning = () => {
   return (
     <>
-      <div className="pt-32 md:pt-24 lg:pt-24 ">
-        <h1 className={schoolFont.variable + " text-4xl font-school py-4"}>
+      <div>
+        <h1 className={schoolFont.variable + " text-4xl font-school py-4 px-2"}>
           Playing with Learning
         </h1>
       </div>
@@ -45,12 +45,12 @@ const Learning = () => {
       <div className="py-4">
         <h2
           className={
-            schoolFont.variable + " text-2xl font-bold py-4 font-school "
+            schoolFont.variable + " text-2xl font-bold py-4 font-school px-2 "
           }
         >
           Fostering Growth Through Play
         </h2>
-        <p className="py-2">
+        <p className="p-2">
           The pedagogical work with the children occurs through our daily care
           and interactions, both structured and in more open settings, from the
           moment we welcome them in the morning, during meals, and other daily
@@ -59,7 +59,7 @@ const Learning = () => {
           how to form friendships, and knowledge is mutually transferred between
           children and between adults and children.
         </p>
-        <p>
+        <p className="p-2">
           The adult role is to protect the delicate, fluid play, provide input
           and ideas when needed, prevent and help children solve conflicts
           constructively. Therefore, we emphasize having actively observing and

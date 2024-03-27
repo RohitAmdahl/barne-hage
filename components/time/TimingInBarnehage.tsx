@@ -3,7 +3,7 @@ import Image from "next/image";
 import indoor from "@/public/slider2.jpg";
 const TimingInBarnehage = () => {
   return (
-    <div className="pt-32 md:pt-24 lg:pt-20 ">
+    <div>
       <div className="py-8 container mx-auto max-w-4xl ">
         <h1
           className={`${schoolFont.variable} capitalize text-4xl font-school p-2 `}

@@ -1,14 +1,14 @@
 import schoolFont from "@/utils/fontStyle";
 const DaysInBarnehage = () => {
   return (
-    <div className="pt-32 md:pt-24 lg:pt-24 ">
-      <div className="py-8 container mx-auto max-w-4xl ">
+    <div>
+      <div className="container mx-auto max-w-4xl px-2 ">
         <h1
           className={`${schoolFont.variable} capitalize text-4xl font-school p-2 `}
         >
           friendship.
         </h1>
-        <p>
+        <p className="py-4">
           In kindergarten, fostering friendships holds paramount importance as
           it plays a pivotal role in a child&apos;s emotional, social, and
           cognitive development. Friendships provide a sense of belonging and
@@ -20,12 +20,12 @@ const DaysInBarnehage = () => {
           development as children communicate, negotiate, and problem-solve
           together.
         </p>
-        <p>
+        <p className="py-2">
           At BarneHage, we believe in the power of friendship. We strive to
           create a nurturing environment where every child can flourish and
           develop well-rounded social skills.
         </p>
-        <ul className="p-2 list-disc ">
+        <ul className="p-4 list-disc ">
           <li>Morning Drop-off: 7:00 AM - 8:30 AM</li>
           <li>Friendly and loving environment 8:30 AM - 9:00 AM.</li>
           <li>Morning Welcome 8:30 AM - 9:00 AM.</li>
