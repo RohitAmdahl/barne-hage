@@ -17,7 +17,7 @@ const Advice = () => {
       <div>
         <Image
           src={clothing}
-          alt="clothing"
+          alt="clothing image of a girl and a boy face not visible"
           className="max-w-2xl p-2 container mx-auto"
         />
       </div>
