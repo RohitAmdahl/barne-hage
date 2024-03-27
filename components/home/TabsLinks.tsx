@@ -26,7 +26,7 @@ const TabsLinks = () => {
             href={"/parentsadvice"}
             className="p-2  text-lg font-bold hover:underline hover:text-purple-950 "
           >
-            Parents Advice
+            Barnehage Advice
           </Link>
         </div>
         <div className=" bg-orange-300 text-center p-5 rounded-lg hover:ring-2 hover:bg-orange-200 ">
